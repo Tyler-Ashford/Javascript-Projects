@@ -29,12 +29,22 @@
   //   document.getElementById("Button_Text").innerHTML = str; // Putting the value of the variable into the HTML element From Point with "Button_Text" id.
   // }
 
-  var sent1 = "This is the beginning of the string"; //Assigning variable sent1 a value of a string of "This is the beginning of the string"
-  var sent2 = "and this is the end of the string"; //Assigning variable sent2 a value of a string "and this is the end of the string"
+  // var sent1 = "This is the beginning of the string"; //Assigning variable sent1 a value of a string of "This is the beginning of the string"
+  // var sent2 = "and this is the end of the string"; //Assigning variable sent2 a value of a string "and this is the end of the string"
 
-    window.alert(`${sent1}, ${sent2}`);
+  //   window.alert(`${sent1}, ${sent2}`);
 
-    6 + 6;
+  //   6 + 6;
 
-    document.write(6 + 6);
+  //   document.write(6 + 6);
 
+
+  function bigImg(x) {
+    x.style.height = "64px";
+    x.style.width = "64px";
+  }
+
+  function normalImg(x) {
+    x.style.height = "32px";
+    x.style.width = "32px";
+  }
