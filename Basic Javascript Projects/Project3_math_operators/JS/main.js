@@ -48,3 +48,4 @@ window.alert(Math.random());
 window.alert(Math.random() * 100);
 
 window.alert(Math.round(4.5));
+
