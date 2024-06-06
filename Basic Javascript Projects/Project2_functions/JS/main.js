@@ -10,3 +10,13 @@ function myFunction() {
   document.getElementById("Concatenate").innerHTML = sentence;
 }
 
+let x = myFunction1(5,6);
+
+function myFunction1(a,b) {
+  return a * b;
+}
+
+const myElement = document.getElementById("demo");
+myElement.style.color = "orange";
+
+
