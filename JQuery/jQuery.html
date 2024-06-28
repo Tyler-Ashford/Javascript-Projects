@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DEMO</title>
+</head>
+<script src="jQuery.js"></script>
+<script>
+          /* This function prevents us to go to jQuery site.  */
+          $( document ).ready(function() {
+            $( "a" ).click(function( event ) {
+                alert( "The link will no longer take you to jquery.com" );
+                event.preventDefault();
+            });
+        });
+        /* This function hides the paragraph tag, and the H1 tag and has it reappear. */
+        $(document).ready(function() {
+            $("button").click(function(){
+                $("p").hide();
+                $( "h1" ).hide( 500 ).delay( 1500 ).show( 300 );
+            });
+        });
+
+</script>
+<body>
+  <a href="http://jquery.com/">jQuery</a>
+    <h1>Hello</h1>
+    <p>Can you see me?</p>
+    <button>Click me to hide paragraphs</button>
+</body>
+</html>
