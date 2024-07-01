@@ -1,2 +1,6 @@
 # Javascript-Projects
-This repository is for my Tech Academy  Javascript projects
+These are some small projects I made using JavaScript.
+
+#  Projects
+
+* Pizza Menu
